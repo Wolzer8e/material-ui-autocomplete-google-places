@@ -9,7 +9,7 @@
     "watch": "npm run build -- -w"
   },
   "peerDependencies": {
-    "material-ui": "^0.17.0",
+    "material-ui": "^0.19.4",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
     "react-tap-event-plugin": "^2.0.0"
@@ -33,13 +33,13 @@
     "material-ui",
     "react"
   ],
-  "author": "autumn smith / github.com/sautumn",
+  "author": "autumn smith / matteo danelli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sautumn/material-ui-autocomplete-google-places/issues"
+    "url": "https://github.com/matteodanelli/material-ui-autocomplete-google-places/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sautumn/material-ui-autocomplete-google-places.git"
+    "url": "https://github.com/matteodanelli/material-ui-autocomplete-google-places.git"
   }
 }
