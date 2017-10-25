@@ -28,7 +28,7 @@ class GooglePlaceAutocomplete extends Component {
   
   componentWillReceiveProps (nextProps) {
     if (this.props !== nextProps) {
-      this.setState(nextProps.searchText)
+      this.setState({searchText: nextProps.searchText})
     }
   }
 
