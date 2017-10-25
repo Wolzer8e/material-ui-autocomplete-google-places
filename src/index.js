@@ -25,6 +25,12 @@ class GooglePlaceAutocomplete extends Component {
     this.getCurrentDataState = this.getCurrentDataState.bind(this);
     this.getLatLgn = this.getLatLgn.bind(this);
   }
+  
+  componentWillReceiveProps (nextProps) {
+    if (this.props !== nextProps) {
+      this.setState(nextProps.searchText)
+    }
+  }
 
   getCurrentDataState() {
     return this.state.data;
