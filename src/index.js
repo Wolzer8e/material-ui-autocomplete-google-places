@@ -43,7 +43,7 @@ class GooglePlaceAutocomplete extends Component {
   }
 
   updateInput(searchText) {
-    if (searchText.length > 0) {
+    if (searchText.length >= 0) {
       this.setState({
         searchText,
       },
